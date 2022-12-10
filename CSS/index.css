@@ -1,3 +1,36 @@
-h1 {
-    color: blue;
+/*Brand Colors 
+
+accent color 
+lime Green = 132, 195, 24
+light blue = 150, 187, 187
+Teal = 97, 137, 133
+Black= 19, 21, 21
+shade =43, 44, 40
+
+Fonts
+ Header Playfair Display
+ Body Robots
+
+*/
+
+h1,
+h2 {
+    color: rgb( 43, 44, 40);
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    
+}
+
+h3,
+h4,
+h5,
+h6 {color: rgb( 43, 44, 40);
+    font-family:'Playfair Display', serif;
+    font-weight: 700;
+}
+
+p{
+    color: rgb(19, 21, 21);
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
 }
