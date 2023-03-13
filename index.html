@@ -20,19 +20,19 @@
 
 
 <!--Navigation-->
-<nav class="container">
+<nav class="container navigation">
 <ul class="nav justify-content-center">
-  <li class="nav-item">
-    <a class="nav-link active" href="#">About</a>
+  <li class="nav-item portfolio-nav">
+    <a class="nav-link active" href="#">ABOUT</a>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Work</a>
+  <li class="nav-item portfolio-nav">
+    <a class="nav-link" href="#Projects">PROJECTS</a>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">contact</a>
+  <li class="nav-item portfolio-nav">
+    <a class="nav-link" href="#Skills">SKILLS</a>
   </li>
-  <li class="nav-item">
-    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+  <li class="nav-item portfolio-nav">
+    <a class="nav-link" href="#contact">CONTACT</a>
   </li>
 </ul>
 </nav>
@@ -43,12 +43,17 @@
 
 <header>
 
+<div class="container">
 <div class="jumbotron">
-    <h1 class="display-4">Hello, world!</h1>
-    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-    <hr class="my-4">
-    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+  <div class="title-and-pic">
+    <div class="name-and-desc">
+    <h1 class="display-4 myname">FIN-<br>NOO-<br>LAH</h1>
+    <hr>
+    <p class="lead discription">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+  </div>
+    <img class = "profile-pic" src="./Images/Profile Picture.jpeg" alt="Fionnuala O'Donnell">
+    </div>
+  </div>
   </div>
 </header>
 
@@ -56,62 +61,90 @@
 <!--Portfolio Grid-->
 
 <!-- remember the short cut for col .row>.col-lg-4. col-md-4. col-sm12*4-->
-<div class="container">
-<div class="row">
-  <div class="col-lg-3 col-md-3 col-sm-12">
-    <div class="card" style="width: 18rem;">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-    </div>
+
+<div class="album py-5 bg-light">
+  <div id="Projects" class="heading">
+    <h1>PROJECTS</h1>
   </div>
-  <div class="col-lg-3 col-md-3 col-sm-12">
-    <div class="card" style="width: 18rem;">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card mb-4 shadow-sm">
+          <img src="./Images/HTML_Projects.jpg" class="card-img-top  projectImg" alt="...">
+          <div class="card-body img-text-line">
+            <h3 class="card-title">HTML</h3>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div class="d-flex justify-content-between align-items-center">
+            </div>
+          </div>
+        </div>
       </div>
+      <div class="col-md-4">
+        <div class="card mb-4 shadow-sm">
+          <img src="./Images/Design.jpg" class="card-img-top  projectImg" alt="...">
+          <div class="card-body img-text-line">
+            <h3 class="card-title">CSS</h3>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div class="d-flex justify-content-between align-items-center">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4 shadow-sm">
+          <img src="./Images/Bootsrap_Projects.jpg" class="card-img-top  projectImg" alt="...">
+          <div class="card-body img-text-line">
+            <h3 class="card-title">Bootstrap</h3>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div class="d-flex justify-content-between align-items-center">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div ID="Skills" class="container centerMe">
+        <div class="card text">
+          <div  class="card-body skills-border">
+            <h3 class="card-title">Skills</h3>    
+            <p class="card-text">During the BootCamp course I gained skills in the following areas:</p>
+          <div class="container skills">
+            <img class="skill-img" src="./Images/html5.svg" alt="HTML">
+            <img class="skill-img" src="./Images/csswizardry.svg" alt="CSS">
+            <img class="skill-img" src="./Images/bootstrap.svg" alt="Bootstrap">
+            <img class="skill-img" src="./Images/javascript.svg" alt="javascript">
+            <img class="skill-img" src="./Images/jquery.svg" alt="Jquery">
+            <img class="skill-img" src="./Images/reactquery.svg" alt="react">
+          </div>
+          </div>
+        </div>
     </div>
-  </div>
-  <div class="col-lg-3 col-md-3 col-sm-12">
-    <div class="card" style="width: 18rem;">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
     </div>
-  </div>
-  <div class="col-lg-3 col-md-3 col-sm-12">
-    <div class="card" style="width: 18rem;">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
     </div>
   </div>
 </div>
-</div>
+
+<!--About Me and contact details-->
 
 
+<!--footer-->
 
-
-<!--footer and contact details-->
-
-<div class="card text-center">
-  <div class="card-header">
-    Featured
-  </div>
-  <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-  <div class="card-footer text-muted">
-    2 days ago
-  </div>
-</div>
-
+<div ID="contact" class="portfolio-footer">
+  <ul class="nav justify-content-center">
+    <li class="nav-item footer-link">
+      <div>Contact Me: fionnuala.k.odonnell@gmail.com</div>
+    </li>
+    <li class="nav-item footer-link">
+      <a class="nav-link" href="https://github.com/Fi-OD/" target="_blank">
+        <img  id="github-logo" src="Images/github-mark.png" alt="github logo"> 
+      </a>
+    </li>
+    <li class="nav-item footer-link">
+      <a class="nav-link" href="https://www.linkedin.com/in/fionnuala-o-donnell-b619a337/" target="_blank">
+      <img id="linked-logo" src="Images/Linkedin Logo.png" alt="linkedin logo">
+     </a> 
+    </li>
+  </ul>
+  </nav>
 
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->

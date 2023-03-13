@@ -26,7 +26,8 @@ h4,
 h5,
 h6 {color: rgb( 43, 44, 40);
     font-family:'Playfair Display', serif;
-    font-weight: 700;
+    font-weight: 300;
+    letter-spacing: 0.2rem;
 }
 
 p{
@@ -42,5 +43,157 @@ a {color: rgb( 43, 44, 40);
     font-kerning: normal;}
 
 a:hover {
-    color: rgb(153, 204, 0);
+    color: black;
+    text-decoration: underline 10px solid #00ff00 !important;
+    font-weight: bolder;
+}
+
+
+/* Navigation customisation*/
+.navigation{
+    height: 80px !important;
+}
+.portfolio-nav{
+height: 80px;
+display: flex;
+align-items: center;
+font-family: 'Roboto';
+font-weight: bold;
+}
+
+.portfolio-nav a{
+    font-size: x-large !important;
+    letter-spacing: 0.2rem;
+}
+
+/* Jumbrotron customisation*/
+.title-and-pic {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .profile-pic {
+    max-width: 25%;
+    filter: grayscale(100%);
+    align-self: flex-start;
+  }
+  
+  .name-and-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  
+  .myname {
+    letter-spacing: 0.5rem !important;
+    font-weight: 300;
+    font-size: 60px;
+    display: inline-block;
+    margin-right: auto; /* this pushes the name to the left side */
+  }
+  
+  .discription {
+    margin-right:25%;
+  }
+
+  hr {
+    width: 70%;
+    margin-right: 30%
+    
+  }
+
+
+
+/*Card customisation*/
+
+.heading{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline 10px solid #00ff00;
+    margin-bottom: 3%;
+}
+
+.heading h1{
+    letter-spacing: 0.2rem;
+    font-weight: 300;
+    font-size:50px;
+
+}
+
+.cardContainer{
+    padding: 5px;
+    margin:5px;
+}
+
+.cardBackground{
+    background-color:rgb(97, 137, 133,0.8);
+   
+}
+
+.projectImg{
+    background-size: cover;
+    filter: grayscale(100%);
+    height: calc(40vh - 25px);
+    width:auto;
+}
+
+
+
+.img-text-line{
+    border-top: 10px solid #00ff00 !important;
+}
+
+
+/* Contact me*/
+
+
+
+
+/*skills*/
+.skills-border{
+    border-top:10px solid #00ff00 ;
+ 
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.skill-img{
+
+    width:10%;
+    height: auto;
+    margin:2%;
+}
+
+
+
+/*Footer*/
+
+.portfolio-footer{
+    background-color: #00ff00;
+    width: auto;
+    height: 80px !important;
+    margin:0 !important;
+}
+
+.footer-link{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+#github-logo{
+    height: 45px;
+    width: auto;
+}
+
+#linked-logo{
+    height:43px;
+    width:auto;
 }
