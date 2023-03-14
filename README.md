@@ -28,4 +28,4 @@ Fionnuala O'Donnell - Github:[Fi-OD](https://github.com/Fi-OD)
 MIT License 
 
 ## Link
-https://fi-od.github.io/WK3-FOD-Portfolio/
+https://fi-od.github.io/WK3-FOD-PORTFOLIO/
